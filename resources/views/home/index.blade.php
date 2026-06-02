@@ -376,17 +376,17 @@
 
             <div class="col-md-4 mb-4">
                 <img src="{{ asset('images/image6.jpg') }}"
-                     class="gallery-img">
+                     class="img-fluid gallery-img">
             </div>
 
             <div class="col-md-4 mb-4">
                 <img src="{{ asset('images/image7.jpg') }}"
-                     class="gallery-img">
+                     class="img-fluid gallery-img">
             </div>
 
             <div class="col-md-4 mb-4">
                 <img src="{{ asset('images/image8.jpg') }}"
-                     class="gallery-img">
+                     class="img-fluid gallery-img">
             </div>
 
         </div>
