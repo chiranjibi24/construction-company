@@ -1,0 +1,213 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 2;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 900px;
+
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 24px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 30px;
+}
+
+.navbar-brand img{
+    transition: 0.5s;
+}
+
+.navbar-brand:hover img{
+    transform: rotate(-10deg) scale(1.1);
+}
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size: 40px;
+    }
+
+    .hero-content p{
+        font-size: 18px;
+    }
+
+}
+
+/* IMAGE WRAPPER */
+
+.image-wrapper{
+    overflow: hidden;
+}
+
+/* IMAGE */
+
+.service-img{
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    transition: transform 0.8s ease;
+}
+
+/* HOVER EFFECT */
+
+.service-card:hover .service-img{
+    transform: scale(1.15);
+}
+
+/* CARD HOVER */
+
+.service-card{
+    transition: all 0.4s ease;
+}
+
+.service-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.2) !important;
+}
+
+/* ABOUT IMAGE WRAPPER */
+
+.about-image-wrapper{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* IMAGE */
+
+.about-img{
+    width: 100%;
+    transition: transform 0.8s ease;
+}
+
+/* HOVER EFFECT */
+
+.about-image-wrapper:hover .about-img{
+    transform: scale(1.15);
+}
+
+.gallery-img{
+    width:100%;
+    height: 250px;
+    border-radius:15px;
+    transition:.6s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.08);
+}
+
+.project-image-wrapper{
+    overflow: hidden;
+}
+
+.project-img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform .8s ease;
+}
+
+.project-card:hover .project-img{
+    transform: scale(1.1);
+}
+
+.project-card{
+    transition: .4s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+}
+
+.project-image{
+    overflow: hidden;
+}
+
+.project-img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: .8s ease;
+}
+
+.project-card:hover .project-img{
+    transform: scale(1.1);
+}
+
+.project-card{
+    transition: .4s;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+.gallery-box{
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
+.gallery-img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: transform .8s ease;
+}
+
+.gallery-box:hover .gallery-img{
+    transform: scale(1.1);
+}
