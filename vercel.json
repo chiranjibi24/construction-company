@@ -11,5 +11,13 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
-  ]
+  ],
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "CACHE_DRIVER": "array",
+    "SESSION_DRIVER": "cookie",
+    "LOG_CHANNEL": "stderr",
+    "APP_KEY": "base64:ewc3ZeVS/5w7q5K6gb9nuNsJT89oaSQRqbic7iIEgi0="
+  }
 }
