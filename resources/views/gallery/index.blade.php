@@ -42,21 +42,21 @@
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/c1.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/c2.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/c3.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
@@ -89,21 +89,21 @@
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/m1.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/m2.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/image3.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
@@ -136,21 +136,21 @@
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/t1.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/t2.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/t3.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
@@ -183,21 +183,21 @@
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/image6.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/image7.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="gallery-box">
                     <img src="{{ asset('images/image8.jpg') }}"
-                         class="gallery-img">
+                         class="img-fluid gallery-img">
                 </div>
             </div>
 
