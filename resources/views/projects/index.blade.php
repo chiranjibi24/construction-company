@@ -59,7 +59,7 @@
                     <div class="project-image">
 
                         <img src="{{ asset('images/image6.jpg') }}"
-                             class="img-fluid project-img">
+                             class="project-img">
 
                     </div>
 
@@ -117,7 +117,7 @@
                     <div class="project-image">
 
                         <img src="{{ asset('images/eq.jpg') }}"
-                             class="img-fluid project-img">
+                             class="project-img">
 
                     </div>
 
@@ -174,7 +174,7 @@
                     <div class="project-image">
 
                         <img src="{{ asset('images/pt.jpg') }}"
-                             class="img-fluid project-img">
+                             class="project-img">
 
                     </div>
 
